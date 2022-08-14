@@ -35,16 +35,16 @@ export const HeroText = styled.div`
 
 `
 export const Imagebg = styled.image`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  position: flex;
+   position: flex;
+   width: 100%;
+   height: 100%;
+   -o-object-fit: cover;
+   object-fit: cover;
 
   @media screen and (max-width: 650px) {
     background-position: center;
     align-items: flex-end;
-    jsutify-content: center;
+    justify-content: center;
   }
 `;
 

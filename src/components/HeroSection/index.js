@@ -10,7 +10,7 @@ import { HeroContainer,
           HeroBtnWrapper,
           ArrowForward,
           ArrowRight } from './HeroElements';
-import image from '../../images/Background.svg'
+import image from '../../images/Background-1.svg'
 
 const HeroSection = () => {
     const [hover,setHover] = useState(false)
