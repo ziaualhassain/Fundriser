@@ -1,0 +1,33 @@
+body {
+    background-color: #282c34;
+    color: white;
+    font-family: poppins;
+    text-align: center;
+  }
+button {
+    border-radius: 0px;
+    background-color : #7416EE;
+    white-space: nowrap;
+    padding: 0px;
+    color: #fff ;
+    font-size: 20px;
+    outline:  white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+
+input {
+  margin-top: 0.5rem;
+  width: 250px;
+  padding: 5px;
+  height: 35px;
+}
+
+button:hover {
+  background-color: #000;
+}
+

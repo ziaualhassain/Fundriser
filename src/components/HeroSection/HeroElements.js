@@ -22,13 +22,12 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overfow: hidden;
-
 `
 export const HeroText = styled.div`
  position: absolute;
  z-index: 3;
  max-width: 1200px;
- padding: 8px 24px;
+ padding: -10 px 24px;
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -40,6 +39,18 @@ export const Imagebg = styled.image`
    height: 100%;
    -o-object-fit: cover;
    object-fit: cover;
+
+  @media screen and (max-width: 650px) {
+    display: none;
+  }
+`;
+
+export const VideBg = styled.video`
+   width: 100%;
+   height: 100%;
+   -o-object-fit: cover;
+   object-fit: cover;
+   background: #fff;
 
   @media screen and (max-width: 650px) {
     background-position: center;
@@ -94,4 +105,3 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `
-

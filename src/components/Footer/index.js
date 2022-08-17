@@ -25,16 +25,19 @@ const Footer = () => {
                     <FooterLinkItems>
                         <FooterLinkTitle> Smart Contract By</FooterLinkTitle>
                            <Devnames> Pulamarasetti Naveen</Devnames>
+                           <Devnames> S170155 </Devnames>
                     </FooterLinkItems>
                  
                     <FooterLinkItems>
-                        <FooterLinkTitle>Developed By</FooterLinkTitle>
-                           <Devnames> G.Tony Ratnam</Devnames>          
+                        <FooterLinkTitle> Developer</FooterLinkTitle>
+                           <Devnames> G.Tony Ratnam</Devnames>   
+                           <Devnames>S170162</Devnames>       
                     </FooterLinkItems>
 
                     <FooterLinkItems>
-                        <FooterLinkTitle>UI/UX developed By</FooterLinkTitle>
-                           <Devnames> Shaik Ziaual Hassain </Devnames>          
+                        <FooterLinkTitle>UI/UX By </FooterLinkTitle>
+                           <Devnames> Shaik Ziaual Hassain</Devnames>  
+                           <Devnames>S170177</Devnames>          
                     </FooterLinkItems>
                     
                 </FooterLinksWrapper>                                     
@@ -44,9 +47,10 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                            <FooterLinkTitle>Under Guidence Of</FooterLinkTitle>
-                           <Devnames> S.Sateesh Kumar  Sir</Devnames>
-                           <Devnames> (Assistant. Prof) </Devnames>
-                           <Devnames>  RGUKT SKLM CSE </Devnames>                 
+                           <Devnames> S.Sateesh Kumar Sir</Devnames>
+                           <Devnames> (Assistant Prof.)</Devnames>
+                           <Devnames> Department Of CSE  </Devnames>
+                           <Devnames>  RGUKT SKLM </Devnames>                 
                     </FooterLinkItems>
                 </FooterLinksWrapper>                                     
             </FooterLinksContainer>
@@ -54,7 +58,7 @@ const Footer = () => {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to='/'> Fundriser </SocialLogo>
-                    <WebsiteRights> fundriser © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                    <WebsiteRights> Fundriser © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                              <FaTwitter/>
