@@ -1,6 +1,6 @@
+![Home Page (2)](https://user-images.githubusercontent.com/62405785/188426178-01f667be-f1b5-481e-8811-579ef2ed4fe1.png)
 
-
-SmartContarct by @navin9000 https://github.com/navin9000/reward-based-crowdfunding
+**SmartContarct by @navin9000** https://github.com/navin9000/reward-based-crowdfunding
 
 # Getting Started with Create React App
 
